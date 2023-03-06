@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Carro carro = new Carro();
+		
+		carro.cor = "amarelo";
+		carro.modelo = "New Fiesta";
+		carro.capacidadeDoTanque = 40;
+		
+		carro.calcularTotalValorCombustivel(5);
+		
+		System.out.println(carro);
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package one.digitalinnovation;
+
+public class ClasseFilha2 extends ClasseMae {
+	
+	void metodo2() {
+		
+	}
+
+}

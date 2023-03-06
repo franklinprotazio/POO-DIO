@@ -1,0 +1,29 @@
+
+public class Carro {
+	
+	private void cor() {
+		
+	}
+	
+	private void modelo() {
+		
+	}
+	
+	private void tipo() {
+		
+	}
+	
+	private boolean ligado() {
+		return true;
+		
+	}
+	
+	private boolean desligado() {
+		return false;
+	}
+	
+	private int tanqueGasolina(int quantidade) {
+		return quantidade;
+	}
+
+}

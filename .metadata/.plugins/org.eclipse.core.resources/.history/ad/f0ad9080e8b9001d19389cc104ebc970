@@ -1,0 +1,28 @@
+
+public class Carro {
+	
+	// Atributos
+	
+	String cor;
+	String modelo;
+	int capacidadeDoTanque;
+	
+	// Metodos
+	
+	public boolean ligar() {
+		return true;
+	}
+	
+	public boolean desligar() {
+		return false;
+	}
+
+	// Construtor
+	
+	public Carro() {
+		cor = "verde";
+	}
+	
+}
+
+

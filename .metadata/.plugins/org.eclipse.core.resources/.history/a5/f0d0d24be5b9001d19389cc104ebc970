@@ -1,0 +1,23 @@
+
+public class Carro {
+	
+	private String cor;
+	
+	private String modelo;
+	
+	private String tipo;
+	
+	private boolean ligado() {
+		return true;
+		
+	}
+	
+	private boolean desligado() {
+		return false;
+	}
+	
+	private int tanqueGasolina(int quantidade) {
+		return quantidade;
+	}
+
+}

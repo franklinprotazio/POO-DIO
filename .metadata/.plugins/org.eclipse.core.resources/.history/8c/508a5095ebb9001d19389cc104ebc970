@@ -1,0 +1,57 @@
+
+public class Carro {
+	
+	// Atributos
+	
+	String cor;
+	String modelo;
+	int capacidadeDoTanque;
+	
+	// Metodos
+	
+	public double calcularCombustivel(double valor) {
+		valor = calcularCombustivel(valor) * 5.9;
+		return valor;
+	}
+
+	// Construtor
+	
+	public Carro(String cor, int capacidadeDoTanque) {
+		
+	}
+	
+	// Destrutor - Só é necessario se for preciso liberar memoria
+	
+	protected void finalize() {
+		
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public String getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	public int getCapacidadeDoTanque() {
+		return capacidadeDoTanque;
+	}
+
+	public void setCapacidadeDoTanque(int capacidadeDoTanque) {
+		this.capacidadeDoTanque = capacidadeDoTanque;
+	}
+	
+	
+
+}
+
+
